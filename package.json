@@ -1,0 +1,24 @@
+{
+  "name": "fecproxyserver",
+  "version": "1.0.0",
+  "description": "FEC QA Proxy Server",
+  "main": "index.js",
+  "proxy": "http://localhost:3000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0nstera/FECProxyServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m0nstera/FECProxyServer/issues"
+  },
+  "homepage": "https://github.com/m0nstera/FECProxyServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
